@@ -1,0 +1,197 @@
+
+<!DOCTYPE html><html lang="fr">
+   <head>
+      <title>Accéder à mes comptes en ligne | BNP Paribas</title>
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="IE=edge,chrome=1" http-equiv="X-UA-compatible"><meta name="description" content="Gestion banque en ligne : consultez et gérez vos comptes sur Internet en toute sécurité, depuis votre ordinateur, mobile ou tablette avec BNP Paribas."><!--ls:end[meta-description]--><!--ls:begin[meta-vpath]--><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><link type="image/x-icon" href="/favicon.ico" rel="shortcut icon"><!-- Publi CSS --><link type="text/css" href="https://mabanque.bnpparibas/rsc/contrib/identification/src/themes/mabanque/css/style.css" rel="stylesheet" /><link type="text/css" href="https://mabanque.bnpparibas/rsc/contrib/css/particuliers/cas-footer-part.css" rel="stylesheet" /><link type="text/css" href="https://mabanque.bnpparibas/rsc/contrib/css/particuliers/cas-header-part.css" rel="stylesheet" /><!-- 	  <link type="text/css" th:href="${@environment.getProperty('bnpp.publi.urlMabanque') + '/rsc/contrib/css/particuliers/fix.css'}" rel="stylesheet" /> --><!-- JS intégré à l'application CAS --><script type="text/javascript" src="/common/js/jquery-3.7.1.min-c9771cc3e90e18f5336eedbd0fffb2cf.js"></script>    
+      <script type="text/javascript" src="/mabanque/js/publication-e4070c51eb28c1fd29d9698714cd783f.js"></script>
+      <script type="text/javascript" src="/common/js/cas-8da6e3f4dedbd2a8e537fcf64deb8c38.js"></script>
+      <script type="text/javascript" src="/common/js/grille-705ed221746a2c5c6985f0a6326d17ed.js"></script>
+      <script type="text/javascript" src="common/threatMetrix/bjtdzi1212.js"></script>
+      <script type="text/javascript" src="common/threatMetrix/pfbp.js"></script>
+
+	  <!-- Adobe Analytics --><script type="text/javascript" src="https://mabanque.bnpparibas/rsc/contrib/script/generique/DependanceSatelliteLoader.js"></script>
+	  <script type="text/javascript" src="https://mabanque.bnpparibas/rsc/contrib/script/generique/satelliteLoader.js"></script>
+	  
+	   <!-- Publi JS --><!--       <script type="text/javascript" th:src="${@environment.getProperty('bnpp.publi.urlMabanque') + '/rsc/contrib/identification/src/themes/mabanque/js/update-ident.js'}"></script> --><!--       <script type="text/javascript" th:src="${@environment.getProperty('bnpp.publi.urlMabanque') + '/rsc/contrib/identification/src/themes/mabanque/js/main.js'}"></script> --><script type="text/javascript" src="https://mabanque.bnpparibas/rsc/contrib/script/particuliers/min/cas.min.js"></script>
+	  
+	  
+	  <!-- Keep alive HTTP session ! --><meta name="sessionDurationInSeconds" content="900" /><meta name=beforeTimeout content="60" /><meta name=sessionExtensionEndpoint content="/keepalive" /><meta name="robots" content="noindex"><script type="text/javascript"  src="/common/js/keepalive-9d8dc0169810b25ddc72bd43c32028e1.js" ></script>
+      
+      <!-- ThreatMetrix --><meta name="orgId" content="cco37scf" /><meta name="pageId" content="101" /><meta name="subDomain" content="content.connexion-mabanque.bnpparibas" /><meta name="siteid" content="part"></head>
+   <body class="fr web world pub client no-bread-crumb ident part mw-1400">
+         <body onresize="responsiveClickZone()" onload="callPfbp(); responsiveClickZone()" class="fr web world pub client no-bread-crumb ident part mw-1400">
+
+         <div class="ls-canvas" id="ls-canvas">
+         	<!-- ================================ --><!-- HEADER --><!-- ================================ --><div id="zone-publiable-header"></div>
+			<div id="zone-publiable-message"></div>
+            
+            <!-- =============================================== --><!-- Identification - Spécifique à CAS OIDC Provider --><!-- =============================================== --><div class="ls-row" id="wrapper">
+               <div class="ls-fxr" id="ls-gen24968870-ls-fxr">
+                  <div class="ls-area mainContent" id="mainContent">
+                     <div class="ls-area-body" id="ls-gen24968871-ls-area-body">
+                        <div class="ls-cmp-wrap ls-1st" id="w1413474755922">
+						    <div class="iw_component" id="1413474755922"><!--content start--><div id="wcm-l-">
+						        <div class="wcm-html style-default "></div>
+						    </div><!--content stop-->
+						    </div>
+						</div>
+                        <div class="ls-cmp-wrap" id="w1413474755927">
+                           <div class="iw_component" id="1413474755927">
+                              <!--Tools Component start (AJAX Mode)--><style>
+									#secret-nbr-keyboard {background-image: url("/grid/j-112917419285415283676779365567194110810");}
+							  </style>
+							  <script type="text/javascript">var positionCount=10;</script>
+                              
+                              
+                              <div id="id_balise_div">
+                              	<div class="canvasLoader hidden" style="width: 80px; height: 80px; margin: 300px auto 0 auto;"><canvas width="80" height="80" style="width: 80px; height: 80px;"></canvas></div>
+                              	<div class="wcm-ia-column">
+									<div id="ia-identification">
+										<div rv-show="data.codeRetour | couldShow">
+											<div class="ident">
+												<div class="carret-up"></div>
+												
+												<!-- Identification Grille --><section class="main-content fond-gradient">
+													<div class="container-ident">
+														<div class="message-erreur arrow-bottom" id="message-erreur"></div>
+														<h2 rv-text="config.app.identification.titre"><span class="label_field" >Accéder à mes Comptes</span></h2>
+														<form  method="post"  id="logincanalnet" name="logincanalnet" class="form" autocomplete="on" action="#" onsubmit="document.getElementById('submitIdent').disabled = true; return true;">
+		<!-- 													<div class="alert alert-danger" th:if="${#fields.hasErrors('*')}"> --><!-- 														<span th:each="err : ${#fields.errors('*')}" th:utext="${err}" /> --><!-- 									        		</div> --><script>
+															/*<![CDATA[*/
+															var localeFromThymeleaf =  "fr";
+															
+															var profiles="prod,prod-mb,prez-1";
+															var urlPubli = "https:\/\/mabanque.bnpparibas";
+															
+															
+															profiles=profiles.split(",");
+															var profile=profiles[0];
+
+															
+																setLanguageAndUrlPubliFromThymeleaf(localeFromThymeleaf, urlPubli, profile);
+																
+																var authUrl = "https:\/\/connexion-mabanque.bnpparibas\/oidc\/authorize?client_id=0e0fe16f-4e44-4138-9c46-fdf077d56087\u0026scope=openid%20bnpp_mabanque%20ikpi\u0026response_type=code\u0026wcm_referer=www.google.com%2F\u0026redirect_uri=https%3A%2F%2Fmabanque.bnpparibas%2Fauth%2Fon-login\u0026ui=classic%20part\u0026state=rFYmy3uAZaKhfOCYdPPr6vh3\u0026nonce=VPz02v26\u0026notify=true";
+																function getParam( name, url ) {
+																	if (!url) url = encodeURI(location.href);
+																    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+																    var regexS = "[\\?&]"+name+"=([^&#]*)";
+																    var regex = new RegExp( regexS );
+																    var results = regex.exec( url );
+																    return results == null ? null : decodeURIComponent(results[1]);
+																}
+																var getexErrorMessage = getParam('error_code', encodeURI(authUrl));
+																
+																if(getexErrorMessage !==null) {
+																	var prefixErrorMessage = "app.identification.erreur.";
+																	this.$("#message-erreur").text(prefixErrorMessage.concat(getexErrorMessage));
+															    	this.$('#message-erreur').show();
+															    	manageErrorMessage(prefixErrorMessage.concat(getexErrorMessage));
+																}
+																
+															    var flag = false;
+															    var errorMessage = [];
+															    if(flag) {
+															    	this.$("#message-erreur").text(errorMessage);
+															    	this.$('#message-erreur').show();
+															    	manageErrorMessage(errorMessage);
+															    }
+															    
+															/*]]>*/
+															</script>
+											        		
+															<ul class="grille-ident">
+																<li style="position: relative;">
+																	<label for="username" rv-text="config.app.identification.numclient">1. <span class="label_field" >Mon numéro client</span></label>
+												
+																	<input type="tel" pattern="[0-9]*" value="" name="userGridPasswordCredential.username" maxlength="10" size="10" autofocus="" autocorrect="off" id="username" class="form-control numeric" rv-value-reactive="form.idTelematique"><a class="reset-input" href="#" id="initClient"></a>
+																	
+																	<input type="checkbox" value="" id="memoriser" name="memoriser"><label for="memoriser" class="checkbox-inline" rv-text="config.app.identification.memoriser">Mémoriser mon numéro client</label>
+																</li>
+																<li style="position: relative;">
+																		<input type="hidden" value="" name="ch5temp"><label rv-text="config.app.identification.password">2. <span class="label_field" >Mon code secret (6 chiffres)</span></label>
+																		<div class="field-password off">
+																			<input type="text" disabled="" value="" maxlength="6" name="ch2" id="secret-nbr" class="form-control"><a class="reset-input" id="initPass" href="#"></a>
+		
+																			<div class="cell-grid">
+																				<div id="secret-nbr-keyboard"></div>
+																			</div>
+																		</div>
+																		<div class="cell-password">
+																			<div class="field-valid">
+																				<section>
+																					<input type="hidden" name="execution" value="992cf98b-d618-4a10-a7bd-9ed7e45582b9_ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5Llh4QUEwSXUzR1QyeWRlZ2E5THllS1FNVF95N2dnSjJFb2lSYVJ6V0tsY0h4dS1UTE9ZUTdLUXNuM2hYY1RnYXphV0ZXTklrdkV2NEN5SU1jZlVoM3pMdmcyV2plVTU0X1Y3UnRNRUJJRGprSWtWdWRSekRfMlVsTFJCNThxRWxYeTVoTlVaWGJ4LWtTMzNvc2lNb2hCWkFIUnozMXFDNUE0dllVdEJQazUwTmQyREoxV2V0WG1lV05DSGVVLXV2dnB2OTNubmFiTlhaZ3AtR3Q0RzJyNTBSdXp5M21jUklOQnhSaUppMERmNldUM1RrMVFvRVlKLV9ZM3BMVUU1a1hYNDJIdEZTc01EYXA1ZzFHTGZtZzNvWGUzeWJuaFRKbUtyQTNINzQ5ZlpaMkFQZHFZbVIzMHIxRENfR25LVGtfUUJOX0dzRXk1SldSQ2JZOE1YV0hndUlLeGtSbC1RbUNoS0pJTDBaemlVNjBEM2JLM2JnandEUWpzbld4M3JPREg3SVotR0pvS0NEOUo4bjA4aTFxR2RiU3hfN2E5T25IUmxKZ2xjNW1vT01wNVJFUWppZjJmNXhFWlRveC1DRkdVOWlvWGN3SjN1R2ZTaTljVm1yS2pBckhFOHdKUDFka2VIb1JjZllPS0xkNWdYUDlsSWdHcEZLUEIzRXk2ZF9CMEFIUmlGZ2lOM09NblJQb0ZWWDlRVGZxR3pLWjZuV25FYzBWbUIwcE0xOGdvUTVOamZ0eDFxWnFvUE9aei1FM0RranNfTXM3TWVYNHdjcGEyWTNSTzdDQTRZWVpMTm5FUXBSckU1S1Y4Rm0zU1E5eUhvQnMtajhNSlg0RXBZb2hkUHk5aFpXdGJFNGFjbnJVRko4QWhISkg4T0VINEhYdG9CLXROYUxFeTJkM01pN0ppX2x4dFh2Y04xQzhwOUpIX3VpZjFzZkwzMndMb29ONU5QQlNJemtYTDRaRzJtQThjTXoxaHJ6YW5KbENGbTQ1TldSV29udEo2ZjNOV3VqZXJ4Q3RsNnc3bFRuZDNJdGk0emNyLWpqOUhGSzJSc3BWM283ai1uUEJuUHo5cVZJRk0zOElEeDYtRUpIRmM2T3hQY1BjeDNVcEdhVVpRZ1pGZTlJYTVia0tiSjBvZFJyQ3ZzVlBuUF91X1lRUmpmWVJTZ3VVNEV3ZEh6WnhSaEcxQjNlLU84T2tGZ2pOT1VybUV2ZjdCZkYzbEJKWlJTSV8wYXJETTZfbWlITEo1TjY1LXMwRU9wX3FPWTlNM0NSRWpIUjFZblF4SllFYjAwOUtjV0RzeG51bVFnOVZ4emppNEVnRFRCREJrUW5SMk9lMkpBaWhOeTJSSGlVb1RTazBWVUpLZDh4OXhGYzY2SHJsaHMyQUNwSW5Rb0ZWRWl6OUVPcktfSVp2UERtWFo1bExPTHU5TllXWkE5eHAyQTZwXzBmc3cydzE2S2JSamk4Zlc0cTdvZzN6d1dvVXQ5b3d6dVBkYzB0bmx0MXhiNE81YTZqMVVBNGxvQWVMa3pQeGpoNk5uZ0Y5Vk9lRHkzMnVDOWlhaUFiNDhxNDVUVmhKLUxUMVZnbDhOaUJhVkdsX3VBb2tfeVAxV2Q1cXJsa1FYcnJrYjhYX3k0eDdHZ19Vc0tXYWxldFhieXFRT1Q1N2tFM2RXYkJGTFVfLTl5S3piQXh3RDFvZFZGWXZPMzJtTFFzdnVjLVlvbWFTOFhkVG5XSmZMd2tqODI0S0VpRGh1bGZ5TkxBRms5YVJLY0VZbDJJYzhFMlFPOElqbnJVR3BaeGNjOEtmbHBTaXUtODFCREt0eG96S2t0R2pJXzduRFlFSmlGWFM4bUpDNnhTY0dEeUVrTFFyeEZ2WksxOWhtc1ktV0lYd2N3QS1DX1FsWnQzdXhPRFZLSU9NN2JUcHdKcnN1eFh6ZTZkN0s2azcwTENtdDFkWDZJRDBfeDNQUEo2WXZWUGJhN1NHWlBfeEN1Z2NPaDlZRDlNQWFSblkxalB6ZnZWUkVTOE16VE55VVBKSUQ5N09fN0ZoaW1DMHFIOHg3SkpUbVR1NVNpdHZreHdPandyeEJBeUFfa0VwcHNNcE5ka2xxX3U0LXA4OU12ZW5pZGt3dnRBdU1KMXdBM3BjeW04X0RoTHR2NXhCRmlJUnpITVlYMzFFdFUxRUFONjZETTVYTF9ndm43V0dLU2d3X3JiZGxJakxKbUpUSHd5STFueUZWbXUyZVJSeXdlamtjRG5IZWFsWlhpblJpWEV5T3ZKLWFuaUExREFwNXZFUGZmclJzTVZwSFRyVjNzOE9CY2U3bVRDRVBCbkE1NG8tMkpwNXFucnYwVnhHQXNGa0ZSRFJ5ZDFKZm1KT0NuWDVIYnNQTDIwMFhteGZXN2xXdGpla0RrdElWd2xlQk5BTzVKOTlPWmFta0RzZzZLcVplazM1alh1SjJzcTlBOFNVOWM4cjhZNmxCREFOVTg0Q3NaRmV0OFNpLWRHZXRoOV9RckJDZmRxV0JucmJ5enF5MzhaX1V0OURSLU5IUFhRNG0ySDgxM2xNeEJRanhvVmUzdWZ6SDF5V19hU0ZpVGRtQXA1MjZpZGVpZ0FVX2lENlNybmJlbDd0U2pRM250RmF2dnhkeVFzRThoNFpIYVRQY1RjVElZOWwwbnhRakYtRmdQSk94dmx2cFhLdlZNdFIwRkpzWUJWSnEyMGExZ3ZnZGFHbzA5bEk1bXZfa2hlczVoRXV4UWRsZjVzcHZfZ0RwYzE5RDBUMFdpNDI5eUVTTmxLR0RWdFFsa0UxaVVidzQzLWhkbTQzemMwdG1ackI0SWZTSnhGT3QtUWVnRDI4TExMZ0lhcGV6M3ZBQmpjM3VDdXBOT3RPU002ZlNLbTR4ME9MZ19Xd2JfXzJsMmRjcFFmcl9VRThKY2tsR2FKVUFJdVlyNUxKRHFVUEk5VXFXQ1llSExmWGlSNFpUSHBtR21hZ1FyX0RMbmJxSUVrOEZpaTIyb2VlY3hTTDlNb2lNYkpqRHNRRDhGNG5fWmx2eHhkMUg3ZnJMQklWNXJfSWNJaU9vbnBCMGVhb0NOTDFKQ2RRM0lZZ2E2RzR0YllNT2Y1QjlJX3pCT1hLbGpvdWNpWGZ4bHlhSVFCNEJtVDlXZVJfU2hWSWRvMmlYRnBHWVZZSVdJaHNyTF9Ud2EyZ2FDeGRiOFB5NXlFSjVtWmxiM2RQcDhadFZGeXd1WnVLWnhYN01XdkZvRnAyamk1eHFyM1J5YUVzdGVNMEdTYVlZYXZWTzVzdHlOZVdzMjZ1MFZYVVdrV3lQUmV5bmFTY3hHMnFJN0xfbFlEUzBpd0k0UDVCYVlSYXpZdWpyZUtBLXRudjFtUE1KRXlkcHdJNXBRYzlMWnVfRE4xbE1DTERrOHdvTnNaNWFHYnRiUVowem1PYVNDMldMUTVCWVpwbWRwZzZwd1VSdTIzWHVqajZ4d1J1TEtoX0g5bFlPcVZ2WDhLczRZWHp4T2FQejN6UDd5bFNXQVEtellIb3lIWG40a010aC1EaUhUYzN5Mk1aUTNEUFhPeVVjY2RsSW85bEJzMXZVSko0ajRaVFFHMWd0SmFTcnhmcUlZYTNELVNyUVRfRmk2dE9pOWUzSTdneHJTVlg2Y2tXb3l1VzJ6VkpwbkN3czN2SkRHSnB4R1JEVTEyOUE3dkpoeUNOWkZEYTFJdzNsbXZ4Y2lxS2lJMDRHZmxxWFJTNUZuZ09KaUdkWk9mMWtTTlZKU3FFLXpSUHRhYUpNY2ZITDJLX3l6QmF3bXpjcjJqc2ZDRDZoRHYxbG14WjJsZWVSbU9MSnZPWHlyZVpjZEVzUHo3VWVncVF1Slp3SGd5eUpXY3ZvbDg3RmluXzN2aHpHSUFYbGY4VWhDdHJ6dVZpY0l4ZUJGZFl0TjF4Q25jc1BPb1pBOUN3OWNPODdBZG9vZEdtbGppMGZhbWFCdWJ0YjkzS2R5WGYxMXlHdmpaQUNlN2xnM19wanZOTDRJSU5kZEVrdnNDX1BTX1dOdTNPT1c2dDg4RDZrb1Q2Q05pSFlCVmZGU21XMTdJSWhiU1BsaS1Pb2lRQll0WHFwWjdteFJXaUY0NmJtNi1odm8wS25leDRfNWRDa3gxSzBHNExvbmF4SjZDNWhkb1RYbGpKUFRaNWZLc0g0akdTNjdLYjhvbEpudndXZmdiYjFITGtmcHduYTZQM2Z4Wm4wTzVLNFU5V0pJYUV4MTI1d3VhekZfam9zSEpRX1JtSVZ6blAtcVpzTFYzOU9EX3Vnc2xwUmliUjByYWZVX0lReUx3NzFyYWxISDEtVy1CdV9ibWFHX21aUlUyNU9NWXdIeWZESW9OMzZWeGNibjlRLU1mekFNTFVJd3dGeXFCS2d5MVVNWFgzUmNwNEZJRDJaM2YyZ29Tb2RzaVFHaW9iWFNLQkVhYU9EWlptb3hMU0FISV9jN01HbHpteTFUZ2tQbEJFM1F0OUJzY0Q4NGtqZ1phMmF3cGtYbXFJakxtZmM0LWx6QU5VWXNyV1VOSHY0S25DWmQxeEpVUmduVGhQcHVYTGNzNGRuSVdhYU5yZ3FNcVp3dERpZ1RSTlBjdTVwdDdkWjFEM2wxSkF1Yk9WazFKSm1mNnE0MWI0OFFiWXhFNnF2dmFwaDlWcWw3N2xBTHdLTHZKbWRJYkUtOEhpR0NoUWhiOFpXcEVIbEZMaGhWdkowb0VMWGdPa1J1S3JlaWg1V0hiRmVLMEVQb0VEZFVRN3o3SGhkdVo2NFNJVmI2RG5jLXNhX0ZTTk1rYS1fOUFiWUhjV20xWmVsT1pEYnhyNXpVSGIzRHBUNl8wdUU1WFJzMkItd3YwT3RXOEJhdm1lcjhYWWphYVdPeU1JcDA2TXdFcVVPbEMydUE4clg1SVAxSEhlZlo2ZHFVVGFnM0hyQzk3NlNNRlBENFhWeUdQNUNIQms3cFNrSkpMRl8xb2c4MURkU0dzeWpWWmpkV1pra3NUTGg5V3BSUFF0U2tEcU8tMDJIMS1oYjM4TEpMY3Q0Yk5WQ3lfV1JrdHpVUFpOMXVWYkNaVVNxRV9YbWY2bFdCR3NBOXJ4T3lROFV3ekplZ3NrLVdwSjZxRE41SkVveUlnSTR0Tl9xWWN0QUZXLWlZY1dHaGFna2pBR3gwODRRUE5PSDA5RnZ5S19Idm1BakE1bzlNdFpqTDBQRmRqQkNOdkpVeEcxM2pXazZySnVwVXhmYmNRT1ROb0Ria01Zd0FOUEZjM2lRQVQzd1pVRk5mSG82NHJYU2NjNlBZZTZRUWpaRnpETEUtYkZNZlFIcXlkQjZwVTNIb1lleXE0RnNPLXVZcmU0R2dKanQ5cXU5eUh1YV9UTkZXel9raGFGdFFIREo4akpKS1VPaGdNZTF1V0NDRHhBMGxHU1g2bldGU0cwaXFmdWdyaXlSRlNMQVcxa2dBTHUyZE1GXzZTa2xPNVNiRW50VXFFS2JkelVLcHFHa1ZBU0lmQXlCeDllbmw5bUJxMHdvNm90YzVzTHBVakUwWTNDZDZxOElrcVFySnNoMGQ1NGhSM3hQZjQ0MUdmdGtSdG0tbDlnaXlwdGxOTUdZdDJaakhDRUdNOXN2SGY2M3RYdWF6VUlTZDA0Ujc1cWRSWGxYa2FXdmF5UThvZ3o0Q0NsQUlZSnN6YkpCem02a1pab3I2MWtjUlNmdmYyOHA3ZjllUW9wcHEtRk5ocl84bFp1YkNfWE5WUEdPS2k4Um94Zk52U2RwY1cweXFhQUdpLUhta0VxbkQ0UVdIQ080eVpCS1BoMTJUOW5zc3BFOVgzdjVUXzhERmlQYlFlTmdGTGFmSm5GWkJVaUVXRFVRdWZteDNGaHh2eGw0NkI5YXBfU2RoalZuNlE5ZldNOUVwUURibl93elVZNm5EeXZDOHZQSDJCRXV4OGhhUWdGcDZ1TWdQbXZ2VHg0LV9BY005NTlnZ0NHbVRIdDloU25ib29YLWUzVUNLdTA4VlpNMHhGQ3YtVDlwcVZpNy05ejI2dkxucjVHN3dpUVB3STFEdE1VYnZLZzZEanR6cVlMR3NWZGNIbm9Tc25UbmJTd2RVRVRpOS1RVk82OTZGYnREQ3RSTWtueEdzVm0xcFYxMDJEbWFOSmFSQkFCZ2ZqdV9ueExJYVVUWUxGRk5GZjVoSDRjUVNLWklLNFZKQlJhS2lFaFlYOUdPR05kMHI0M19jclRkQXZndGdIZVowSjFoQUc5RTJBUWtuczZadmsxOG93WGZtdGg0Vm9MV182aXVtejBhWnppSzYteW1LOVNoTE96THR0LXhjdlJleGVZX0x6Ym1MUHIyejFuVFMtS2U3a2Q5MnJoeTdYSmJrUk5jYS1LUnZYT0VNeEJGNHZHTWM2MVhpRUVHZlcxUWRmbk9jSHprWTVPTnhCQ2VLdnNRSDFuMXYyR1NkLWJaUk1Hbm1rV1NPV1NKWUl4bHA2dUJFNnk1OVlZVFZvYXZFNmhLQTU2TW44Wkoza09pcFJlSzhZRWoyRW5GNS1ta2ppbGhZUW1MdE5fYkVLdkFraEJmbGRZOV9HZ2Z4RG8wTjdBYlRRU1B1TGstdGw2UzBhS0plcU1TelNkME9oTnA2TlgtT1FJRVB5a1RmQV9CU3I0NDdYSWV3TnNVaC0xQXAzdzNZdXl0SVp3LWhLV05xeDhrbnZpUDdJX3REU1RDcTR5anBSaGw5V0hOOEdyWVFtVmxkQ0FMOU5QWnlvbEI4b1BUUmoyY3ZKZEZncVlCamRxaWM0VUdvblNod2xJSG9zMWhIT0VpbDR2T3JudkFRR2tHbFU5Sy16OGZQSmxWMGFZM2FZd2pHSjhNOEl5V1MzbXpZekFMeWtaN2tyTmtCTzFtX2g2TG5IUUVTZnlrSGZsYUdBZk1QdkNBMGo1dmVLTlg1M1VVRlBQSGhrYWJ3UDkwMUM5bXBCdnZYaElGZU9uQ1ZCZzJSckRkV1d5SDEwdDJqV251Zm5uR1h1bzRldjBwWE5ONFJMR1Jicl9ubk1JdDJNNXdCeU5SMkppbDBaZU11d1Y1c1l6QjU4M3ZxZUIzeks4Qk5TQWRPa1lZcEhfTWZnY3NGcGIwOEExTkVtcnpzVnlUdjZjRjhPMko3UTJjRDA1dThxZkppNjU0bkhEcUhyOHFRMUdOWmxTNzV4LVVTUWpEUFF0YWtnbXF5YWs2QVVJa0RKTXNZX1pVUmgwZ3g4SFRrRmh5b210RkloRFRFLTVQRV9rLTJPX2YweXVGa2NQREFrUXRJVWViTzRGNEsxblNuT1NneFV6NWF5RTd1eTFKdGRmSklsdzBVX21GRGE2WmQtaDhkdWpjSFN3T3RlQ1pmejh0UEtybHdlZkdqeGN1R24wWUt5cElCdlJFeHpNVWQtQm1hemwyVlNLNUQ3d1NKUEo0TG1XVEdxNU51ZVhYaTM3MHNQYzdKV3oyVVhrRHhwY2U0VFF6VVZxUVo2Sll0dExGc2pFRGhJOW1ldG9JYXdRUHY0MkZHRzNMcTZIemJxX0hoUy12ekk1QnJaQVY5Nk5hR05XSzRTSWdzSTZXZTlhM0V3cHYtekVmZTRyZmtFeXZCNUtrMWZqSndHUG85MnhoWmRvR2VQczNEc19hUkktTjhHbzh2MlpsYUp1NHVJelBOMWZtQlkzc1BVMVpHU3RKRDB3NUJacFVQTjVaanVwS1ZJNy1mQm9oMUROODZnaEhhQ0J6TnQ2QjRlYk50dnZoV2pTZkxFR3BEWXFvRjJYYmJFOXVYMUlnVkhzZDFwc2g2MDlrajdTT2RkS3RfeTZxOHM2WnJtc3VhTUNZWnNBd2VsbzhwUFdkWVhiNTRXeVZqOE9QN2VxZ2N5cFM4a0ViMWxsSnh5c1RDTDM2anR5QkQ1cDZGeENxaVpEckdBSnVmMFlmU1owSGgwZGROdUJQWHBHY2RuaFVGVWc3YV9NOFE2U3A3VmIxU2RITTg4QXUyWjE1Q0xWN2xkcm5Jd1lBVERyTV9aVnlIeWNOVkxPem5CbkZXTGZzbXZ4djNPVjNBNTNuQzN3OWdSbFJyb0NNSVFBWkRYMDBTSElCYTQ2Ym1EQXBMYVEyd3NzSGNuazVRUmNiSDNPa0tLVmM2MUhVT0VIc2ZtSVJkUWZ0NEN0LW5mUlZOdFg0MVExQS1BSmZ0MUxWRllZdnJsdGp1aERZbGtjbWplVDVMbFBtWTRxMFRzbmlYSHhsSi1JRmhrWnd4dzNfdW5BMGFwMEN0UHVqY2ZnVlBtd0tIdmtRZ1NFSVRNY250VHhEVjNYanFxb2dsdHZYOURpYlZ0bmwxdTVWZzVxTTFrY2FtUnNVTTZVUS1sWVFUQ095WkpKdUZ6cUl6WmRVQjlRZ0JQWTR2VmVVODhadmY5R0lieEpzYjBqOFA0SGNPMVpTQ3ZyeW9sZFB4UlR0dFNGUElSRzJGUHJ4U2tMT25LX3lEOGJiSFhkRWNEX0szcjkzbS00cVdEMTBkYm9jQTNoNmc3OUFwbllCLWpCWEo0ZHpGdmdETEpNMFNKNkFhNDhPOEtGcXhqd3pjQ2pJQ25YeHZ5dG5ZNlB1QmtYb1ZodURKSVJYdzl0UGtNWVNLSmZVZkp5UnRCX182M0EtaWdoM0o3NjVaZG1Sc3ZPYy1tU3QzOEVaVTFKVE5aa2cxZnJ0UGZHemk1SXRKSHlkNFBVbV9VMU1qLXo5YW9CYnVFMHZxSENqM2FtbW4tZGlPMmpGZWxrdEZGMnZRNGRWbXJCZzFmdkZ6ek5XQ0piZy1INXQ1YnNYOTJVLWpRcVZnSE5Pb3hoTHBHdDh5UEhuQXVuTTdNZ2piNENmZnJHY0s0NjAySFRBRk4zNVZIV2pObU5tWWt5OFAwSDJXYnF2QU8wU0lYdlNIRkJWdWJRRERIQWtwYlNOS3UzZ2E2UXZ4eWQxaWF2MlJQT0l6WUJsN2cxOENiUUloZTRqdlZscGwzU05ja1NCQlAwVm5mQzhreTl0OXdWcUJyV2lQLVlTeXBDUDZ6WWcxZjZLcmdPYUpMSE5BMlFOaEJ4aFF3bmhBUVlGRHVyNW9CVXdJb0ZGaXhqQ3Y0TmxIdThkTjliaDctZmVxZy5IemlnRXVwNkkyWGJHaVM4WVNLdl9YRmlfdl9yNWJ1dUo0b21RNWNNZ2xYdi1NRnZrZ0lhTGIzTm02M0k2aFMtVW95RkVPQVZRa0tyMlp5RHJPZEtwUQ==" /><input type="hidden" name="_eventId" value="submit" /><input type="hidden" name="geolocation" /><input type="hidden" name="handlerName" value="BNPP_GRID_AUTHN" /><input type="hidden" id="gridPosition" name="userGridPasswordCredential.gridPosition" value="" /><input type="hidden" id="idTMX" name="userGridPasswordCredential.idTMX" value="13092c27-a1bb-4a68-9c5b-27af1d0258c4" /><button type="submit" class="btn-primary btn-block" id="submitIdent" disabled="" value="Accéder à mes Comptes">
+																						<span class="label_field" >Accéder à mes Comptes</span>
+																					</button>
+																				</section>
+																			</div>
+																		</div>									
+																		<div id="zone-publiable-basse"><p id="zonePubliableBasIdentificationPart"></p>
+																		</div>
+																</li>
+																<li style="position: relative;">
+																	<button type="button" id="buttonPopinNumClientMDP">
+																		Numéro client ou code secret oublié ? </button>
+																</li>
+															</ul>
+														</form>
+													</div>
+												</section>
+											
+												<aside class="col-aside arrow-left">
+													<div id="zone-publiable-haute">
+														<div id="popinNumClientMDP" class="hidden" aria-modal="true" role="dialog" aria-hidden="true">
+															<div role="document">
+																<button class="popin-close"><span class="sr-only">Fermer la popin</span><span
+																		aria-hidden="true">X</span></button>
+														
+																<div>
+																	<p class="title">Numéro client ou code secret oublié</p>
+																	<p>Sélectionnez l’élément que vous souhaitez récupérer :</p>
+														
+																	<div class="btn-group">
+																		<a id="recupNumClient" href="#">
+																			<span>
+																				Retrouver mon numéro client
+																				<br>
+																				<span>(nécessaire à la réinitialisation de votre code secret)</span>
+																			</span>
+																		</a>
+														
+																		<a id="recupClientMDP" href="#">
+																			<span>Retrouver mon code secret</span>
+																		</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+														
+														<div id="popinCache" class="hidden"></div>
+													</div>
+												</div>
+											<div class="identification_erreur_tech" rv-show="data.codeRetour | couldNotShow" style="display: none;"><p></p></div>									
+										</div>									
+									</div>
+                              </div>
+                              <!--Tools Component stop--></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="ls-row-clr"></div>
+               </div>
+            </div>
+            
+         </div>
+         <!-- ================================ --><!-- FOOTER --><!-- ================================ --><div id="zone-publiable-footer"></div>
+              
+      </div>
+	 	<script>
+			if ( window.history.replaceState ) {
+  				window.history.replaceState( null, null, window.location.href );
+			}
+		</script>
+   </body>
+   </body>
+</html>
+
+ 
+  
